@@ -762,7 +762,7 @@
 			"name": "Xml Documentation Comment",
 			"scope": "comment.documentation",
 			"settings": {
-				"foreground": "#608B4E",
+				"foreground": "#5C6370",
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"name": "RegEx Comment",
 			"scope": "string.regexp.comment.cs",
 			"settings": {
-				"foreground": "#57A64A",
+				"foreground": "#5C6370",
 			}
 		},
 		{
