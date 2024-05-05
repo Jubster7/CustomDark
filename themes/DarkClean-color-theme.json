@@ -1,5 +1,5 @@
 {
-	"name": "DarkClean",
+	"name": "CustomDark",
 
 	"colors": {
 		"activityBar.background": "#100d1f72",
@@ -29,7 +29,6 @@
 		"editorCursor.background": "#ffffff",
 		"editorCursor.foreground": "#007896a3",
 		"editorError.foreground": "#c24038",
-		//"editorGroup.background": "#181a1f", this dosent work
 		"editorGroup.border": "#181a1f",
 		"editorGroupHeader.noTabsBackground": "#fefefe3a",
 		"editorGroupHeader.tabsBackground": "#100d1f41",
@@ -64,14 +63,17 @@
 		"sideBar.foreground": "#ffffff",
 		"sideBarSectionHeader.background": "#0c152800",
 		"sideBarSectionHeader.foreground": "#ffffffcc",
-		//"side": "#ff0000",
+
 		"statusBar.background": "#7000ff",
-		//"statusBar.debuggingBackground": "#080d1ab3",
-		"statusBar.debuggingForeground": "#ffffff00",
+
+		"statusBar.debuggingForeground": "#ffffff",
+		"statusBar.debuggingBackground": "#006ece",
+
 		"statusBar.foreground": "#ffffff",
-		//"statusBar.noFolderBackground": "#080d1ab3",
-		//"statusBar.noFolderForeground": "#ffffff00",
-		//"statusBarItem.hoverBackground": "#363759",
+		"statusBar.noFolderBackground": "#00ff5184",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBarItem.hoverBackground": "#363759",
+
 		"tab.activeBackground": "#fefefe03",
 		"tab.activeBorderTop": "#00000000",
 		"tab.activeForeground": "#f9f9f9ef",
@@ -82,14 +84,13 @@
 		"terminal.ansiCyan": "#00d0ff",
 		"terminal.ansiGreen": "#c82fbd",
 		"terminal.ansiYellow": "#4cde7f",
-		"terminal.background": "#45454500",
+		"terminal.background": "#0b09154a",
 		"terminal.foreground": "#d9d9d9",
 		"terminalCursor.foreground": "#fcfcfc",
 		"titleBar.activeBackground": "#100d1f72",
 		//"titleBar.activeForeground": "#002b2d",
 		"titleBar.inactiveBackground": "#100d1f72",
 		//"titleBar.inactiveForeground": "#ffffff00",
-		//"workbench.background": "#00000037", this also dosent work idk
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
@@ -127,9 +128,15 @@
 			}
 		},
 		{
-			"scope": "constant.language.boolean",
+			"scope": "constant.language.boolean.true",
 			"settings": {
 				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"scope": "constant.language.boolean.false",
+			"settings": {
+				"foreground": "#c25656"
 			}
 		},
 		{
@@ -376,24 +383,20 @@
 				"foreground": "#9cdcfe"
 			}
 		},
-		{
-			"scope": "",//keyword",
-			"settings": {
-				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope":
-			[
-			"keyword.type.cs",
-			"keyword.other",
+/* 		{
+			"scope": [
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#569cd6"
 			}
-		},
+		}, */
 		{
-			"scope": "keyword.control",
+			"scope":
+			[
+			"keyword.type",
+			"keyword.other",
+			],
 			"settings": {
 				"foreground": "#569cd6"
 			}
@@ -538,12 +541,14 @@
 		{
 			"name": "Control flow / Special keywords",
 			"scope": [
-				"keyword.control",
-				"source.cpp keyword.operator.new",
-				"keyword.operator.delete",
+				"keyword.control.conditional",
+				"keyword.control.loop",
+				"keyword.control.flow",
+				//"source.cpp keyword.operator.new",
+				//"keyword.operator.delete",
 				//"keyword.other.using",
-				"keyword.other.operator",
-				"entity.name.operator"
+				//"keyword.other.operator",
+				//"entity.name.operator"
 			],
 			"settings": {
 				"foreground": "#C586C0"
@@ -654,7 +659,6 @@
 				"foreground": "#C8C8C8"
 			}
 		},
-		// Visual Studio 2019 Tweaks
 		{
 			"name": "Excluded Code",
 			"scope": "support.other.excluded",

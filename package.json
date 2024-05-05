@@ -21,7 +21,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "DarkClean",
+        "label": "CustomDark",
         "uiTheme": "vs-dark",
         "path": "./themes/DarkClean-color-theme.json"
       }
