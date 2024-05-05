@@ -2,7 +2,7 @@
   "name": "customdark",
   "displayName": "CustomDark",
   "description": "Dark extension based off the default theme that ships with the MS C# extension and New york theme by Lucas Bernardi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "Jubster",
   "engines": {
     "vscode": "^1.77.0"
