@@ -2,7 +2,7 @@
   "name": "customdark",
   "displayName": "CustomDark",
   "description": "2 Dark themes, vibrant and clean",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "publisher": "Jubster",
   "engines": {
     "vscode": "^1.77.0"
