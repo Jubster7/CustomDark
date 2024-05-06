@@ -8,4 +8,4 @@ Example theme Screenshots:
 ![screenshot](https://github.com/Jubster7/CustomDark/blob/main/Theme%20Screenshots/example%202.png?raw=true)
 
 ### Theme 2 (Dark Vibrant): Not implemented yet
-Dark theme Based of [Subliminal](https://github.com/gaearon/subliminal) and [Abyss theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-abyss)
+Dark theme Based of [Palenight Theme](https://github.com/whizkydee/vscode-palenight-theme) and [Abyss theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-abyss)
