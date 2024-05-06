@@ -17,7 +17,7 @@
     "theme",
     "dark",
     "clean",
-    "vibrant",
+    "vibrant"
   ],
   "contributes": {
     "themes": [
