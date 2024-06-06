@@ -3,7 +3,7 @@
   "displayName": "CustomDark",
   "description": "2 Dark themes, vibrant and clean",
   "icon": "Icons/Icon.png",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "Jubster",
   "engines": {
     "vscode": "^1.77.0"
