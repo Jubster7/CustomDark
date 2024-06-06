@@ -27,11 +27,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/DarkClean-color-theme.json"
       },
-      {
+      /*{
         "label": "DarkVibrant Testing Only (WIP)",
         "uiTheme": "vs-dark",
         "path": "./themes/DarkVibrant-color-theme.json"
-      }
+      }*/
     ]
   }
 }
