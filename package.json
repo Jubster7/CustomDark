@@ -1,37 +1,44 @@
 {
-  "name": "customdark",
-  "displayName": "CustomDark",
-  "description": "2 Dark themes, vibrant and clean",
-  "icon": "Icons/Icon.png",
-  "version": "1.3.1",
-  "publisher": "Jubster",
-  "engines": {
-    "vscode": "^1.77.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "repository": {
-    "url": "https://github.com/Jubster7/CustomDark"
-  },
-  "keywords": [
-    "theme",
-    "dark",
-    "clean",
-    "vibrant"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "DarkClean",
-        "uiTheme": "vs-dark",
-        "path": "./themes/DarkClean-color-theme.json"
-      },
-      /*{
-        "label": "DarkVibrant Testing Only (WIP)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/DarkVibrant-color-theme.json"
-      }*/
-    ]
-  }
+	"name": "customdark",
+	"displayName": "CustomDark",
+	"description": "2 Dark themes, vibrant and clean",
+	"icon": "Icons/Icon.png",
+	"version": "1.3.1",
+	"publisher": "Jubster",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"url": "https://github.com/Jubster7/CustomDark"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"clean",
+		"vibrant"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "DarkClean",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DarkClean-color-theme.json"
+			}
+		],
+		"themesDebugOnly": [
+			{
+				"label": "DarkClean",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DarkClean-color-theme.json"
+			},
+			{
+				"label": "DarkVibrant",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DarkVibrant-color-theme.json"
+			}
+		]
+	}
 }
