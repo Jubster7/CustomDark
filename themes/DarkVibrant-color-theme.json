@@ -223,6 +223,7 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
+				"foreground": "#6688CC",
 				"fontStyle": ""
 			}
 		},
@@ -263,6 +264,13 @@
 		},
 		{
 		   "name": "KeywordOther",
+		   "scope": "keyword.other.unit.hexadecimal",
+		   "settings": {
+			   "foreground": "#F280D0"
+		   }
+		},
+		{
+		   "name": "KeywordOther",
 		   "scope": "keyword.control.directive",
 		   "settings": {
 			   "foreground": "#9966b8"
@@ -283,6 +291,90 @@
 		   }
 		},
 		{
+		   "name": "Keyword break",
+		   "scope": "keyword.control.flow.break",
+		   "settings": {
+			   "foreground": "#9966b8"
+		   }
+		},
+		{
+		   "name": "Keyword continue",
+		   "scope": "keyword.control.flow.continue",
+		   "settings": {
+			   "foreground": "#9966b8"
+		   }
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.while",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.if",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.else",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.for",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.switch",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.case",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.return",
+			"settings": {
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.break",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.goto",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Keyword cpp",
+			"scope": "keyword.control.continue",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
 			"name": "Keyword",
 			"scope": "keyword.cpp.unity",
 			"settings": {
@@ -301,6 +393,20 @@
 			"scope": "constant.language.boolean.true",
 			"settings": {
 				"foreground": "#00b700"
+			}
+		},
+		{
+			"name": "Boolean true",
+			"scope": "constant.language.true",
+			"settings": {
+				"foreground": "#00b700"
+			}
+		},
+		{
+			"name": "Boolean false",
+			"scope": "constant.language.false",
+			"settings": {
+				"foreground": "#aa0000"
 			}
 		},
 		{

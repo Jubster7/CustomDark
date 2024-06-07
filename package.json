@@ -1,7 +1,7 @@
 {
 	"name": "customdark",
 	"displayName": "CustomDark",
-	"description": "2 Dark themes, vibrant and clean",
+	"description": "2 dark themes, vibrant and clean",
 	"icon": "Icons/Icon.png",
 	"version": "1.3.2",
 	"publisher": "Jubster",
@@ -21,21 +21,14 @@
 		"vibrant"
 	],
 	"contributes": {
-		"themesd": [
-			{
-				"label": "DarkClean",
-				"uiTheme": "vs-dark",
-				"path": "./themes/DarkClean-color-theme.json"
-			}
-		],
 		"themes": [
 			{
-				"label": "DarkVibrant",
+				"label": "Dark Vibrant",
 				"uiTheme": "vs-dark",
 				"path": "./themes/DarkVibrant-color-theme.json"
 			},
 			{
-				"label": "DarkClean",
+				"label": "Dark Clean",
 				"uiTheme": "vs-dark",
 				"path": "./themes/DarkClean-color-theme.json"
 			}

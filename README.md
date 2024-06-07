@@ -12,8 +12,8 @@ Dark theme extension based off the default theme that ships with the MS C# exten
 </details>
 
 <!--
-### Theme 2 (Dark Vibrant): Not implemented yet
-Dark theme Based of [Palenight Theme](https://github.com/whizkydee/vscode-palenight-theme) and [Abyss theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-abyss).
+### Theme 2: (Dark Vibrant)
+Dark theme Heavily Based on [Abyss theme](https://github.com/microsoft/vscode/tree/main/extensions/theme-abyss).
 
 <details>
 <summary> Example theme Screenshots </summary>
