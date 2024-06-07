@@ -21,23 +21,23 @@
 		"vibrant"
 	],
 	"contributes": {
-		"themes": [
+		"themesd": [
 			{
 				"label": "DarkClean",
 				"uiTheme": "vs-dark",
 				"path": "./themes/DarkClean-color-theme.json"
 			}
 		],
-		"themesDebugOnly": [
-			{
-				"label": "DarkClean",
-				"uiTheme": "vs-dark",
-				"path": "./themes/DarkClean-color-theme.json"
-			},
+		"themes": [
 			{
 				"label": "DarkVibrant",
 				"uiTheme": "vs-dark",
 				"path": "./themes/DarkVibrant-color-theme.json"
+			},
+			{
+				"label": "DarkClean",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DarkClean-color-theme.json"
 			}
 		]
 	}
