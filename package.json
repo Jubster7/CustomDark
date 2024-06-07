@@ -2,7 +2,7 @@
 	"name": "customdark",
 	"displayName": "CustomDark",
 	"description": "2 dark themes, vibrant and clean",
-	"icon": "Icons/Icon 2.png",
+	"icon": "Icons/Icon2.png",
 	"version": "1.4.0",
 	"publisher": "Jubster",
 	"engines": {
