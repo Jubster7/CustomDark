@@ -453,6 +453,16 @@
 			}
 		},
 		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.type.struct",
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#ffeebb"
+			}
+		},
+		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
@@ -638,6 +648,12 @@
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#6688cc"
+			}
+		},
+		{
+			"scope": "keyword.control.assembly",
+			"settings": {
+				"foreground": "#225588"
 			}
 		}
 	]
